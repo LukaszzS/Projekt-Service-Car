@@ -1,0 +1,62 @@
+#about .container {
+  width: 100%;
+  margin: 0 auto;
+}
+.box-about {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.btn-about {
+  background: transparent;
+  border: none;
+  padding: 10px 0;
+  color: black;
+  cursor: pointer;
+}
+.box-about .box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px 0 0;
+}
+.box-about .box-content span {
+  color: white;
+  background: #d6110b;
+  margin-right: 10px;
+}
+
+.box-content .box-content-min h2 {
+  text-transform: uppercase;
+}
+
+.box-content .box-content-min h3 {
+  font-weight: 500;
+  color: black;
+  padding-top: 10px;
+}
+
+.box-content:first-child {
+  background: #d6110b;
+}
+.box-about .box-content:first-child .btn-about {
+  color: white;
+}
+
+.box-content:first-child .box-content-min h2,
+.box-content:first-child .box-content-min h3 {
+  color: white;
+}
+
+.box-about .box-content .btn-about {
+  color: rgb(255, 0, 0);
+}
+
+.box-about .box-content i {
+  color: red;
+  margin-right: 10px;
+}
+.box-about .box-content h2 {
+  /* white-space: nowrap; */ /*temat do wyjasnienie - z zawijaniem tekstu lub nie */
+  font-size: 15px;
+  margin-right: 5px;
+}

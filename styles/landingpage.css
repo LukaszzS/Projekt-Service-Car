@@ -1,0 +1,78 @@
+#landingpage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/slide-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.landingpage-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 91vh;
+}
+.landingpage-text {
+  margin-left: 46px;
+  margin-top: 80px;
+}
+.landingpage-text h1 {
+  line-height: 80px;
+}
+
+.landingpage-text h2 {
+  color: white;
+}
+
+/* after - do użycia ?  */
+/* .slideCar :after { */
+.slideCar {
+  /* content: ""; */
+  background-image: url(../img/landingPage-car.gif);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 42%;
+  padding-bottom: 15%;
+  position: absolute;
+  top: 71%;
+  left: 50%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  width: 100px;
+  background: #d6110b;
+  border-radius: 12px;
+  color: white;
+  position: fixed;
+  right: -72px;
+  top: 45%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.social-media i:hover {
+  animation: bounce 1s;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}

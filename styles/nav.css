@@ -1,0 +1,42 @@
+nav a {
+  margin-left: 45px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  color: white;
+}
+
+.nav-container > a:first-of-type {
+  margin-top: 46px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-container > a:first-of-type:hover {
+  text-decoration: underline;
+  color: white;
+  transition-duration: 1s;
+}
+
+.nav-container .nav--links {
+  margin-top: 46px;
+}
+.nav--links li {
+  display: inline;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+.nav--links li:hover {
+  text-decoration: underline;
+  color: white;
+  transition-duration: 1s;
+}
